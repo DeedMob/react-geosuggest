@@ -1395,7 +1395,7 @@ exports.default = {
   location: _react2.default.PropTypes.object,
   radius: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.string, _react2.default.PropTypes.number]),
   bounds: _react2.default.PropTypes.object,
-  country: _react2.default.PropTypes.string,
+  country: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.string, _react2.default.PropTypes.array]),
   types: _react2.default.PropTypes.array,
   queryDelay: _react2.default.PropTypes.number,
   googleMaps: _react2.default.PropTypes.object,
